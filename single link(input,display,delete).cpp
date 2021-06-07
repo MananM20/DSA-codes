@@ -6,7 +6,7 @@ struct node{
 };
 struct node *head,*tail=NULL;
 void addnode(int data){
-struct node * newdata = new struct node[4];
+node * newdata = new node;
 	newdata->data=data;
 	newdata->next=NULL;
 	if(head==NULL){
