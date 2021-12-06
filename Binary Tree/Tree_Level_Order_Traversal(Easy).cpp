@@ -36,7 +36,7 @@ int main(){
     cin>>t;
     while(t--){
         cin>>data;
-        root=mytree.insert(root,data);
+        root=mytree.insert(root,data);//the level order is that we print the data as we insert the data. so the answer is:-
         cout<<data<<" ";
     };
     return 0;
